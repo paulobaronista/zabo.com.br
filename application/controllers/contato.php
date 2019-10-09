@@ -10,8 +10,8 @@ class Contato extends CI_Controller
     }
     public function index()
     {
-        $data['title'] = 'Café Canaan';
-        $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
+        $data['title'] = 'JARDINS COLLECTION ZABO';
+        $data['description'] = '';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
@@ -59,8 +59,8 @@ class Contato extends CI_Controller
 
     public function obrigado()
     {
-        $data['title'] = 'Café Canaan';
-        $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
+        $data['title'] = 'JARDINS COLLECTION ZABO';
+        $data['description'] = '';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
@@ -74,8 +74,8 @@ class Contato extends CI_Controller
 
     public function fail()
     {
-        $data['title'] = 'Café Canaan';
-        $data['description'] = 'O café Canaan mudou para melhor. Vem muita coisa boa por aí! Você vai se surpreender!';
+        $data['title'] = 'JARDINS COLLECTION ZABO';
+        $data['description'] = '';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';

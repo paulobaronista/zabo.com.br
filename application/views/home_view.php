@@ -6,10 +6,10 @@
                     <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
                 </div>
                 <div class="item">
-                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-2.jpg" alt="Banner">
+                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
                 </div>
                 <div class="item">
-                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-4.jpg" alt="Banner">
+                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
                 </div>
             </div>
         </div>

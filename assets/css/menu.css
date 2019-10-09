@@ -5,7 +5,7 @@
     margin-bottom: 0px;
     position: fixed;
     width: 100%;
-    top: 20px;
+    top: -1px;
     z-index: 210;
     min-height: auto;
 }
@@ -14,54 +14,20 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-.navbar-nav {
-    float: right;
-}
-
-.navbar-nav>li {
-    float: none;
-    display: inline-block;
-}
-
 .navbar-default .navbar-nav>li>a {
-    font-family: 'Cronos Pro';
-    font-weight: normal;
+    font-family: 'Lato';
+    font-weight: bold;
     font-style: normal;
     font-size: 15px;
     line-height: 15px;
     color: #fff;
     text-transform: uppercase;
-    padding: 7px 10px;
-}
-
-.navbar-default .navbar-nav>li>a::after {
-    content: '';
-    width: 1px;
-    height: 50%;
-    background: #fff;
-    position: absolute;
-    right: -3px;
-    top: 7px;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #e6a12d;
-}
-
-.navbar-default .navbar-nav>li:last-child a::after {
-    display: none;
-}
-
-.navbar-default .navbar-nav>li>a:hover::before {
-    content: '';
-    width: 60%;
-    height: 1px;
-    background: #e6a12d;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -30%;
+    color: #fff;
+    background-color: #3f7977;
 }
 
 .navbar-default .navbar-toggle {
@@ -75,7 +41,7 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #e6a12d;
+    background-color: #3f7977;
 }
 
 .navbar-toggle {
@@ -119,8 +85,7 @@
         width: 100%;
         position: absolute;
         z-index: 300;
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-top: 9px;
     }
 
     .navbarBG {
