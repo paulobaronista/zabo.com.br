@@ -1,0 +1,154 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    z-index: 210;
+    min-height: auto;
+}
+
+.navbarBG {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav>li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Cronos Pro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 10px;
+}
+
+.navbar-default .navbar-nav>li>a::after {
+    content: '';
+    width: 1px;
+    height: 50%;
+    background: #fff;
+    position: absolute;
+    right: -3px;
+    top: 7px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e6a12d;
+}
+
+.navbar-default .navbar-nav>li:last-child a::after {
+    display: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover::before {
+    content: '';
+    width: 60%;
+    height: 1px;
+    background: #e6a12d;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30%;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    z-index: 400;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e6a12d;
+}
+
+.navbar-toggle {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* Extra Small */
+
+@media(max-width:767px) {
+    .navbar-default {
+        top: 10px;
+    }
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        width: 100%;
+    }
+
+    .nav>li {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        border-top: 0px solid transparent;
+        box-shadow: none;
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+        background: rgba(0, 0, 0, 0.8);
+        margin-top: -45px;
+        width: 100%;
+        position: absolute;
+        z-index: 300;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .navbarBG {
+        background: transparent;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 13px 10px;
+    }
+    .navbar-default .navbar-nav>li> a::after {
+        display: none;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover::before {
+        display: none;
+    }
+}
+
+
+/* Small */
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* Medium */
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* Large */
+
+@media(min-width:1200px) {}
