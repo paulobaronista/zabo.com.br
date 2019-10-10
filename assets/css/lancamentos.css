@@ -67,6 +67,7 @@
     background-color: #3f484b;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 20px;
 }
 .lancamentos-info h2 {
     font-family: 'Elaris';
@@ -114,6 +115,7 @@
     }
     .lancamentos-info {
         margin-bottom: 10px;
+        margin-top: 0px;
     }
     .lancamentos-info h2 {
         font-size: 22px;

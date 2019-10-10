@@ -63,7 +63,6 @@
     </div>
 </div>
 
-
 <div id="lancamentos" class="lancamentos">
     <div class="container">
         <div class="row">
@@ -71,7 +70,7 @@
                 <h2>lançamentos</h2>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-20">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
                     <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Helena.png" alt="Maison Helena">
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Franca, 1633</p>
@@ -83,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-20">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
                     <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Marie.png" alt="Maison Marie">
                     <div class="col-xs-12">
                         <p class="txt-1">Rua José Maria Lisboa, 1326</p>
@@ -95,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-20">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
                     <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Giselle.png" alt="Maison Giselle">
                     <div class="col-xs-12">
                         <p class="txt-1">Rua Peixoto Gomide, 1389</p>
@@ -107,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-20">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
                     <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maiso-Chloe.png" alt="Maiso Chloe">
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Casa Branca, 939</p>
@@ -145,19 +144,20 @@
         </div>
     </div>
 </div>
+
 <div class="container box-info">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
-            <div class="col-xs-12 col-sm-4 col-md-4 mb-10">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/localizacao.png" alt="Localização">
+            <div class="col-xs-12 col-sm-4 col-md-4 mb-20">
+                <img class="img-responsive center-block visible-xs mb-20" src="<?= base_url(); ?>assets/images/localizacao.png" alt="Localização">
                 <h2>localização</h2>
                 <p>Atuamos nas regiões
                     mais nobres de São Paulo, sempre buscando
                     os endereços mais
                     exclusivos.</p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 mb-10">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/arquitetura.png" alt="Arquitetura">
+            <div class="col-xs-12 col-sm-4 col-md-4 mb-20">
+                <img class="img-responsive center-block visible-xs mb-20" src="<?= base_url(); ?>assets/images/arquitetura.png" alt="Arquitetura">
                 <h2>arquitetura</h2>
                 <p>Todos os nossos
                     empreendimentos são
@@ -167,13 +167,67 @@
                     o bom gosto, o requinte
                     e a sofisticação Zabo.</p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/construcao.png" alt="Construção">
+            <div class="col-xs-12 col-sm-4 col-md-4 mb-20">
+                <img class="img-responsive center-block visible-xs mb-20" src="<?= base_url(); ?>assets/images/construcao.png" alt="Construção">
                 <h2>construção</h2>
                 <p>A Zabo preza pela
-                qualidade de construção de seus empreendimentos, oferecendo acabamentos
-                de altíssimo padrão
-                com máxima tecnologia.</p>
+                    qualidade de construção de seus empreendimentos, oferecendo acabamentos
+                    de altíssimo padrão
+                    com máxima tecnologia.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="futuros-lancamentos" class="futuros-lancamentos">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
+                <h2>futuros lançamentos</h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30">
+                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Pine.png" alt="Pine">
+                    <div class="col-xs-12">
+                        <p class="txt-1">Rua Alves Guimarães, 214</p>
+                        <p class="txt-1">Pinheiros</p>
+                        <p class="txt-2">126m² - 3 Dorms./2 Vagas</p>
+                        <p class="txt-2">151m² - 3 Suítes/2 Vagas</p>
+                        <div class="col-xs-12 padding-off text-center">
+                            <p class="txt-3">Lançamento Previsto<br>
+                                para 1º semestre de 2020</p>
+                            <a href="">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30">
+                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Symmetry.png" alt="Symmetry">
+                    <div class="col-xs-12">
+                        <p class="txt-1">Al. Itú, 1059</p>
+                        <p class="txt-1">Jardins</p>
+                        <p class="txt-2">49 m² - 2 Dorms./1 Vaga</p>
+                        <p class="txt-2">68m² - 2 Dorms./1 Vaga</p>
+                        <div class="col-xs-12 padding-off text-center">
+                            <p class="txt-3">Lançamento Previsto<br>
+                                para 2º semestre de 2020</p>
+                            <a href="">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30">
+                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Manuelle.png" alt="Maison Manuelle">
+                    <div class="col-xs-12">
+                        <p class="txt-1">R. Manoel da Nóbrega, 1440</p>
+                        <p class="txt-1">Ibirapuera</p>
+                        <p class="txt-2">187m² - 3 Suítes / 3 Vagas</p>
+                        <p class="txt-2" style="color: transparent !important">0</p>
+                        <div class="col-xs-12 padding-off text-center">
+                            <p class="txt-3">Lançamento Previsto<br>
+                                para 1º semestre de 2020</p>
+                            <a href="">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -184,9 +238,7 @@
 
 
 
-
-
-<div id="contato" class="contato animated wow slideInUp">
+<div id="fale-conosco" class="contato animated wow slideInUp">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
