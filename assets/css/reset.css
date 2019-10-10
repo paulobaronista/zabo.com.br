@@ -63,69 +63,69 @@
     src: url('../fonts/Lato-Regular.eot');
     src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Lato-Regular.woff2') format('woff2'),
-        url('../Lato-Regular.woff') format('woff'),
-        url('../Lato-Regular.ttf') format('truetype'),
-        url('../Lato-Regular.svg#Lato-Regular') format('svg');
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.ttf') format('truetype'),
+        url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('../Lato-Medium.eot');
-    src: url('../Lato-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../Lato-Medium.woff2') format('woff2'),
-        url('../Lato-Medium.woff') format('woff'),
-        url('../Lato-Medium.ttf') format('truetype'),
-        url('../Lato-Medium.svg#Lato-Medium') format('svg');
+    src: url('../fonts/Lato-Medium.eot');
+    src: url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Medium.woff2') format('woff2'),
+        url('../fonts/Lato-Medium.woff') format('woff'),
+        url('../fonts/Lato-Medium.ttf') format('truetype'),
+        url('../fonts/Lato-Medium.svg#Lato-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('../Lato-Light.eot');
-    src: url('../Lato-Light.eot?#iefix') format('embedded-opentype'),
-        url('../Lato-Light.woff2') format('woff2'),
-        url('../Lato-Light.woff') format('woff'),
-        url('../Lato-Light.ttf') format('truetype'),
-        url('../Lato-Light.svg#Lato-Light') format('svg');
+    src: url('../fonts/Lato-Light.eot');
+    src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff'),
+        url('../fonts/Lato-Light.ttf') format('truetype'),
+        url('../fonts/Lato-Light.svg#Lato-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('../Lato-Thin.eot');
-    src: url('../Lato-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../Lato-Thin.woff2') format('woff2'),
-        url('../Lato-Thin.woff') format('woff'),
-        url('../Lato-Thin.ttf') format('truetype'),
-        url('../Lato-Thin.svg#Lato-Thin') format('svg');
+    src: url('../fonts/Lato-Thin.eot');
+    src: url('../fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Thin.woff2') format('woff2'),
+        url('../fonts/Lato-Thin.woff') format('woff'),
+        url('../fonts/Lato-Thin.ttf') format('truetype'),
+        url('../fonts/Lato-Thin.svg#Lato-Thin') format('svg');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('../Lato-Heavy.eot');
-    src: url('../Lato-Heavy.eot?#iefix') format('embedded-opentype'),
-        url('../Lato-Heavy.woff2') format('woff2'),
-        url('../Lato-Heavy.woff') format('woff'),
-        url('../Lato-Heavy.ttf') format('truetype'),
-        url('../Lato-Heavy.svg#Lato-Heavy') format('svg');
+    src: url('../fonts/Lato-Heavy.eot');
+    src: url('../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Heavy.woff2') format('woff2'),
+        url('../fonts/Lato-Heavy.woff') format('woff'),
+        url('../fonts/Lato-Heavy.ttf') format('truetype'),
+        url('../fonts/Lato-Heavy.svg#Lato-Heavy') format('svg');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Elaris';
-    src: url('../Elaris_Regular.eot');
-    src: url('../Elaris_Regular.eot?#iefix') format('embedded-opentype'),
-        url('../Elaris_Regular.woff2') format('woff2'),
-        url('../Elaris_Regular.woff') format('woff'),
-        url('../Elaris_Regular.ttf') format('truetype'),
-        url('../Elaris_Regular.svg#Elaris_Regular') format('svg');
+    src: url('../fonts/Elaris_Regular.eot');
+    src: url('../fonts/Elaris_Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Elaris_Regular.woff2') format('woff2'),
+        url('../fonts/Elaris_Regular.woff') format('woff'),
+        url('../fonts/Elaris_Regular.ttf') format('truetype'),
+        url('../fonts/Elaris_Regular.svg#Elaris_Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -257,7 +257,9 @@
 .margin-top-400 {
     margin-top: 400px;
 }
-
+.mb-10 {
+    margin-bottom: 10px;
+}
 .mb-20 {
     margin-bottom: 20px;
 }

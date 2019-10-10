@@ -1,0 +1,103 @@
+.jardins {
+    padding-top: 65px;
+}
+
+.jardins h2 {
+    font-family: 'Elaris';
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: normal;
+    font-style: normal;
+    color: #3f7977;
+    margin: 0;
+}
+
+.jardins h2+p {
+    font-family: 'Elaris';
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: normal;
+    font-style: normal;
+    color: #3f484b;
+    margin: 0;
+}
+
+.jardins h2+p span {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.line {
+    height: 2px;
+    background-color: #3f7977;
+    width: 40%;
+    margin: 10px auto 0;
+    display: block;
+}
+
+.info p {
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    font-style: normal;
+    color: #3f484b;
+    margin-top: 40px;
+}
+
+.projetos img {
+    border: solid 1px #fff;
+}
+.projetos {
+    margin-top: 40px;
+}
+
+/* Extra Small */
+
+@media(max-width:767px) {
+    .jardins {
+        padding-top: 25px;
+    }
+
+    .jardins h2 {
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .jardins h2+p {
+        font-size: 23px;
+        line-height: 25px;
+    }
+
+    .jardins h2+p span {
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    .info p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+
+    .projetos {
+        margin-top: 20px;
+    }
+
+}
+
+
+/* Small */
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* Medium */
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* Large */
+
+@media(min-width:1200px) {}

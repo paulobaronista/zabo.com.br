@@ -1,0 +1,139 @@
+.lancamentos {
+    padding-top: 65px;
+}
+
+.lancamentos h2 {
+    font-family: 'Elaris';
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: normal;
+    font-style: normal;
+    color: #3f7977;
+    margin: 0 0 25px 0;
+}
+
+.lancamentos p {
+    margin: 0;
+}
+
+.lancamentos .txt-1,
+.lancamentos .txt-2,
+.lancamentos .txt-3,
+.lancamentos a {
+    font-family: 'Lato';
+}
+.lancamentos .txt-1 {
+    font-weight: normal;
+    font-style: normal;
+    color: #3f484b;
+    font-size: 15px;
+    line-height: 20px;
+}
+.lancamentos .txt-2 {
+    font-weight: 900;
+    font-style: normal;
+    color: #3f7977;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 5px;
+}
+.lancamentos .txt-3,
+.lancamentos a {
+    font-weight: bold;
+    font-style: normal;
+}
+.lancamentos .txt-3 {
+    color: #3f484b;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.lancamentos a {
+    color: #fff;
+    background-color: #3f7977;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 50px;
+    margin: 10px auto 0;
+    display: table;
+}
+.lancamentos a:hover {
+    text-decoration: none;
+    background-color: #366866;
+}
+.lancamentos-info {
+    background-color: #3f484b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.lancamentos-info h2 {
+    font-family: 'Elaris';
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    margin: 0 0 25px 0;
+}
+.box-info {
+    margin-top: 30px;
+}
+.box-info h2 {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-style: normal;
+    color: #3f7977;
+    font-size: 17px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+}
+.box-info p {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: normal;
+    color: #3f484b;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+/* Extra Small */
+
+@media(max-width:767px) {
+    .lancamentos {
+        padding-top: 25px;
+    }
+
+    .lancamentos h2 {
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+    .lancamentos-info {
+        margin-bottom: 10px;
+    }
+    .lancamentos-info h2 {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 0;
+    }
+    
+}
+
+
+/* Small */
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* Medium */
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* Large */
+
+@media(min-width:1200px) {}
