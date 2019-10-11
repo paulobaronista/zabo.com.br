@@ -34,28 +34,28 @@
                     oferece de melhor. Você merece.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 projetos">
-                <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Shopping-Cidade-Sao-Paulo.png" alt="Shopping Cidade São Paulo">
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 padding-off">
+                <div class="col-xs-6 col-sm-6 col-md-6 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Lelis-Blanc.png" alt="Lelis Blanc">
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 padding-off">
+                <div class="col-xs-6 col-sm-6 col-md-6 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Galeria-Zipper.png" alt="Galeria Zipper">
                 </div>
-                <div class="col-xs-12 col-sm-5 col-md-5 padding-off">
+                <div class="col-xs-12 col-sm-5 col-md-5 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Pettirosso-Ristorante.png" alt="Pettirosso Ristorante">
                 </div>
-                <div class="col-xs-12 col-sm-7 col-md-7 padding-off">
+                <div class="col-xs-12 col-sm-7 col-md-7 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Fratina.png" alt="Fratina">
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-4 padding-off">
+                <div class="col-xs-6 col-sm-4 col-md-4 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Casa-Santa-Luzia.png" alt="Casa Santa Luzia">
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-4 padding-off">
+                <div class="col-xs-6 col-sm-4 col-md-4 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/DOM-Restaurante.png" alt="DOM Restaurante">
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 padding-off">
+                <div class="col-xs-12 col-sm-4 col-md-4 padding-off animated wow zoomIn">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Chef-Rouge-Bistrot.png" alt="Chef Rouge Bistrot">
                 </div>
             </div>
@@ -70,51 +70,51 @@
                 <h2>lançamentos</h2>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
-                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Helena.png" alt="Maison Helena">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInLeft">
+                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Helena.png" alt="Maison Helena">
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Franca, 1633</p>
                         <p class="txt-1">Jardins</p>
                         <p class="txt-2">208 e 312m² - 3 e 4 Suítes/4 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jul/22</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-helena" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
-                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Marie.png" alt="Maison Marie">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInRight">
+                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Marie.png" alt="Maison Marie">
                     <div class="col-xs-12">
                         <p class="txt-1">Rua José Maria Lisboa, 1326</p>
                         <p class="txt-1">Jardins</p>
                         <p class="txt-2">205m² - 3 Suítes/4 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jan/20</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-marie" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
-                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Giselle.png" alt="Maison Giselle">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInLeft">
+                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Giselle.png" alt="Maison Giselle">
                     <div class="col-xs-12">
                         <p class="txt-1">Rua Peixoto Gomide, 1389</p>
                         <p class="txt-1">Jardins</p>
                         <p class="txt-2">226m² - 4 Dormitórios/4 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jan/22</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-giselle" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30">
-                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maiso-Chloe.png" alt="Maiso Chloe">
+                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInRight">
+                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maiso-Chloe.png" alt="Maiso Chloe">
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Casa Branca, 939</p>
                         <p class="txt-1">Jardins</p>
                         <p class="txt-2">174m² - 3 Suítes/3 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jul/22</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-chloe" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -186,45 +186,45 @@
                 <h2>futuros lançamentos</h2>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
-                <div class="col-xs-12 col-sm-4 col-md-4 mb-30">
-                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Pine.png" alt="Pine">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInUp">
+                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Pine.png" alt="Pine">
                     <div class="col-xs-12">
                         <p class="txt-1">Rua Alves Guimarães, 214</p>
                         <p class="txt-1">Pinheiros</p>
-                        <p class="txt-2">126m² - 3 Dorms./2 Vagas</p>
+                        <p class="txt-2 margin-top-15">126m² - 3 Dorms./2 Vagas</p>
                         <p class="txt-2">151m² - 3 Suítes/2 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 1º semestre de 2020</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/pine-zabo" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 mb-30">
-                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Symmetry.png" alt="Symmetry">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInUp delay-1s">
+                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Symmetry.png" alt="Symmetry">
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Itú, 1059</p>
                         <p class="txt-1">Jardins</p>
-                        <p class="txt-2">49 m² - 2 Dorms./1 Vaga</p>
+                        <p class="txt-2 margin-top-15">49 m² - 2 Dorms./1 Vaga</p>
                         <p class="txt-2">68m² - 2 Dorms./1 Vaga</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/symmetry-zabo" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 mb-30">
-                    <img class="img-responsive center-block mb-10" src="<?= base_url(); ?>assets/images/Maison-Manuelle.png" alt="Maison Manuelle">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInUp delay-2s">
+                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Manuelle.png" alt="Maison Manuelle">
                     <div class="col-xs-12">
                         <p class="txt-1">R. Manoel da Nóbrega, 1440</p>
                         <p class="txt-1">Ibirapuera</p>
-                        <p class="txt-2">187m² - 3 Suítes / 3 Vagas</p>
+                        <p class="txt-2 margin-top-15">187m² - 3 Suítes / 3 Vagas</p>
                         <p class="txt-2" style="color: transparent !important">0</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 1º semestre de 2020</p>
-                            <a href="">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-manuelle" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -233,37 +233,34 @@
     </div>
 </div>
 
-
-
-
-
-
-<div id="fale-conosco" class="contato animated wow slideInUp">
-    <div class="container">
+<div id="fale-conosco" class="contato">
+    <div class="container animated wow zoomIn">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
-                <h2>Contato</h2>
+                <h2>fale conosco</h2>
+                <p>Ficou interessado por algum de nossos empreendimentos?<br>
+                    Preencha o formulário abaixo e em breve entraremos em contato. </p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 margin-top-30">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
                         <div class="col-xs-12 col-md-12 padding-off-mobile form-group">
-                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome:*" />
+                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome:" />
                         </div>
-                        <div class="col-xs-12 col-md-5 padding-off-mobile form-group">
+                        <div class="col-xs-12 col-md-6 padding-off-mobile form-group margin-top-10">
                             <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone:" />
                         </div>
-                        <div class="col-xs-12 col-md-7 padding-off-mobile form-group">
-                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-mail:*" />
+                        <div class="col-xs-12 col-md-6 padding-off-mobile form-group margin-top-10">
+                            <input id="cidade" type="text" class="cidade form-control" name="cidade" placeholder="Cidade:" />
                         </div>
-                        <div class="col-xs-12 col-md-12 padding-off-mobile form-group">
-                            <input id="interesse" type="text" class="interesse form-control" name="interesse" placeholder="Assunto:" />
+                        <div class="col-xs-12 col-md-12 padding-off-mobile form-group margin-top-10">
+                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-mail:" />
                         </div>
-                        <div class="col-xs-12 col-md-8 padding-off-mobile form-group">
+                        <div class="col-xs-12 col-md-12 padding-off-mobile form-group margin-top-10">
                             <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem:"></textarea>
                         </div>
-                        <div class="col-xs-12 col-md-4 padding-off-mobile form-group">
-                            <button type="submit" class="btn_enviar enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                        <div class="col-xs-12 col-md-12 padding-off-mobile form-group margin-top-10">
+                            <button type="submit" class="btn btn_enviar" title="enviar" name="enviar_email" value="enviar">Enviar</button>
                         </div>
                     </div>
                 </form>
@@ -273,8 +270,15 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit et consectetur dolores neque placeat perferendis tenetur quas aperiam, beatae praesentium omnis. Rerum vitae ipsa sit non facere sequi ratione ad.
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="col-xs-12 col-sm-5 col-md-5">
+                        <img class="img-responsive logo" src="<?= base_url(); ?>assets/images/logo-zabo.png" alt="Zabo">
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-7 icones">
+                        <p><img src="<?= base_url(); ?>assets/images/icon-localizacao.png" alt="Localização">Rua Estados Unidos, 1044 - Jardim América - 01427-001</p>
+                        <p><img src="<?= base_url(); ?>assets/images/icon-whatsapp.png" alt="WhatsApp">(11) 99610-0076</p>
+                        <p><img src="<?= base_url(); ?>assets/images/icon-telefone.png" alt="Telefone">PABX: (11) 3060-4222</p>
+                    </div>
                 </div>
             </div>
         </div>

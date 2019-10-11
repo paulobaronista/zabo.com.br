@@ -6,23 +6,6 @@ $(document).ready(function() {
     wow.init();
 });
 
-
-$(document).ready(function() {
-    $('#residenciais').carousel({
-        pause: true,
-        interval: false,
-    });
-    $('#comerciais').carousel({
-        pause: true,
-        interval: false,
-    });
-    $('#modal-cidade-jardim').carousel({
-        pause: true,
-        interval: false,
-    });
-});
-
-
 // Script Scroll OnPage
 $(document).ready(function() {
     $(document).on("scroll", onScroll);
@@ -73,16 +56,16 @@ $(function() {
     $('.nome').clear();
     $('.email').clear();
     $('.phone').clear();
-    $('.interesse').clear();
+    $('.cidade').clear();
     $('.msg').clear();
 
     $('.btn_enviar').on('click', function() {
-        var n, e, t, i, m;
+        var n, e, t, c, m;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
         t = $('.phone').val();
-        i = $('.interesse').val();
+        c = $('.cidade').val();
         m = $('.msg').val();
     });
 

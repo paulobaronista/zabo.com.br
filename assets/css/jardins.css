@@ -1,5 +1,6 @@
 .jardins {
     padding-top: 65px;
+    overflow: hidden;
 }
 
 .jardins h2 {
@@ -66,7 +67,7 @@
     }
 
     .jardins h2+p {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 25px;
     }
 

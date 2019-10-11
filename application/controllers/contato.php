@@ -20,16 +20,16 @@ class Contato extends CI_Controller
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
-            $interesse = $this->input->post('interesse');
+            $cidade = $this->input->post('cidade');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.canaan.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.zabo.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@maei.com.br", "$nome"); //senha: @piTs23A
-            $this->email->to('contato@maei.com.br');
+            $this->email->from("contato@spicytracking.com.br", "$nome"); //senha: @f5(Sqkw#R=a
+            $this->email->to('contato@spicytracking.com.br');
             $this->email->cc('paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
@@ -38,14 +38,14 @@ class Contato extends CI_Controller
             Nome:		{$nome}<br/>
                 Telefone:	{$telefone}<br/>
                     E-mail:		{$email}<br/>
-                        Assunto:	{$interesse}<br/>
+                        Cidade:	{$cidade}<br/>
                             Mensagem:	{$mensagem}<br/>
                             </body></html>");
 
             if ($this->email->send()) {
-                redirect('https://www.canaan.com.br/contato/obrigado');
+                redirect('https://www.zabo.com.br/contato/obrigado');
             } else {
-                redirect('https://www.canaan.com.br/contato/fail');
+                redirect('https://www.zabo.com.br/contato/fail');
             }
         }
 
