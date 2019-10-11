@@ -272,7 +272,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="col-xs-12 col-sm-5 col-md-5">
-                        <img class="img-responsive logo" src="<?= base_url(); ?>assets/images/logo-zabo.png" alt="Zabo">
+                        <img class="img-responsive logo" src="<?= base_url(); ?>assets/images/logo-Zabo.png" alt="Zabo">
                     </div>
                     <div class="col-xs-12 col-sm-7 col-md-7 icones">
                         <p><img src="<?= base_url(); ?>assets/images/icon-localizacao.png" alt="Localização">Rua Estados Unidos, 1044 - Jardim América - 01427-001</p>
