@@ -5,12 +5,6 @@
                 <div class="item active">
                     <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
                 </div>
-                <!-- <div class="item">
-                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
-                </div>
-                <div class="item">
-                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/banner-1.jpg" alt="Banner">
-                </div> -->
             </div>
         </div>
     </section>
@@ -26,12 +20,12 @@
                 <span class="line"></span>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 info text-center">
-                <p>Com mais de XX empreendimentos lançados no bairro, a Zabo é a construtora
-                    de altíssimo padrão que mais conhece os Jardins. Sabe exatamente onde estão
-                    os melhores terrenos e as melhores oportunidades para você investir nesse lugar
-                    tão desejado e privilegiado. Veja a seguir os próximos lançamentos da Zabo na região.
-                    Escolha o seu e viva no endereço que é o símbolo do que a capital paulista
-                    oferece de melhor. Você merece.</p>
+                <p>Com grande experiência em diversos lançamentos no Bairro, a Zabo é a
+                    construtora de altíssimo padrão que mais conhece os Jardins e tem as
+                    melhores oportunidades para você investir e morar na região mais desejada
+                    e privilegiada de São Paulo. Conheça a seguir os próximos lançamentos da
+                    Zabo nesta região. Escolha viver no endereço que é o símbolo do que a
+                    capital paulista oferece de melhor. Você merece.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 projetos">
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off animated wow zoomIn">
@@ -68,6 +62,9 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
                 <h2>lançamentos</h2>
+                <p>Aproveite as oportunidades mais<br>
+                    sofisticadas e exclusivas do mercado</p>
+                <span class="line"></span>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
                 <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInLeft">
@@ -75,7 +72,7 @@
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Franca, 1633</p>
                         <p class="txt-1">Jardins</p>
-                        <p class="txt-2">208 e 312m² - 3 e 4 Suítes/4 Vagas</p>
+                        <p class="txt-2">208 e 312m² - 3 e 4 Suítes</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jul/22</p>
                             <a href="https://www.zabo.com.br/maison-helena" target="_blank">Saiba Mais</a>
@@ -184,6 +181,9 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
                 <h2>futuros lançamentos</h2>
+                <p>Conheça em primeira as novidades<br>
+                    que a Zabo está preparando para você.</p>
+                <span class="line"></span>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInUp">
@@ -191,8 +191,8 @@
                     <div class="col-xs-12">
                         <p class="txt-1">Rua Alves Guimarães, 214</p>
                         <p class="txt-1">Pinheiros</p>
-                        <p class="txt-2 margin-top-15">126m² - 3 Dorms./2 Vagas</p>
-                        <p class="txt-2">151m² - 3 Suítes/2 Vagas</p>
+                        <p class="txt-2 margin-top-15">126 à 151 m² - 2 ou 3 Suítes</p>
+                        <p class="txt-2">2 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 1º semestre de 2020</p>
@@ -205,8 +205,8 @@
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Itú, 1059</p>
                         <p class="txt-1">Jardins</p>
-                        <p class="txt-2 margin-top-15">49 m² - 2 Dorms./1 Vaga</p>
-                        <p class="txt-2">68m² - 2 Dorms./1 Vaga</p>
+                        <p class="txt-2 margin-top-15">68 m² - 2 Dorms. (1 suíte)</p>
+                        <p class="txt-2">1 Vaga</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
@@ -219,11 +219,11 @@
                     <div class="col-xs-12">
                         <p class="txt-1">R. Manoel da Nóbrega, 1440</p>
                         <p class="txt-1">Ibirapuera</p>
-                        <p class="txt-2 margin-top-15">187m² - 3 Suítes / 3 Vagas</p>
-                        <p class="txt-2" style="color: transparent !important">0</p>
+                        <p class="txt-2 margin-top-15">187m² - 3 Suítes</p>
+                        <p class="txt-2">3 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
-                                para 1º semestre de 2020</p>
+                                para 2º semestre de 2020</p>
                             <a href="https://www.zabo.com.br/maison-manuelle" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
@@ -239,7 +239,7 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
                 <h2>fale conosco</h2>
                 <p>Ficou interessado por algum de nossos empreendimentos?<br>
-                    Preencha o formulário abaixo e em breve entraremos em contato. </p>
+                    Entre em contato com nossa Diretoria</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 margin-top-30">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
@@ -276,7 +276,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-7 col-md-7 icones">
                         <p><img src="<?= base_url(); ?>assets/images/icon-localizacao.png" alt="Localização">Rua Estados Unidos, 1044 - Jardim América - 01427-001</p>
-                        <p><img src="<?= base_url(); ?>assets/images/icon-whatsapp.png" alt="WhatsApp">(11) 99610-0076</p>
+                        <p><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511996100076" target="_blank"><img src="<?= base_url(); ?>assets/images/icon-whatsapp.png" alt="WhatsApp">(11) 99610-0076</a></p>
                         <p><img src="<?= base_url(); ?>assets/images/icon-telefone.png" alt="Telefone">PABX: (11) 3060-4222</p>
                     </div>
                 </div>

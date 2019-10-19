@@ -137,9 +137,11 @@
 .margin-top-5 {
     margin-top: 5px;
 }
+
 .margin-top-10 {
     margin-top: 10px;
 }
+
 .margin-top-15 {
     margin-top: 15px !important;
 }
@@ -259,21 +261,27 @@
 .margin-top-400 {
     margin-top: 400px;
 }
+
 .mb-10 {
     margin-bottom: 10px;
 }
+
 .mb-15 {
     margin-bottom: 15px;
 }
+
 .mb-20 {
     margin-bottom: 20px;
 }
+
 .mb-30 {
     margin-bottom: 30px;
 }
+
 .mb-40 {
     margin-bottom: 40px;
 }
+
 .padding-off {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -322,10 +330,44 @@ p {
     top: -25px;
 }
 
+.avisos {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.avisos p {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 300px 0 0 0;
+    background: #3f7977;
+    padding: 10px 25px;
+    display: block;
+    float: right;
+}
+
 
 /* Extra Small */
 
 @media(max-width:767px) {
+    .avisos {
+        position: relative;
+    }
+
+    .avisos p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px;
+        text-align: center;
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
     .padding-off-mobile {
         padding-left: 0px !important;
         padding-right: 0px !important;

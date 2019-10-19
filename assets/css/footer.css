@@ -25,6 +25,10 @@ footer .icones img {
 footer .icones p {
     margin: 0 0 10px 0;
 }
+footer .icones p a {
+    color: #fff;
+    cursor: pointer;
+}
 
 footer .logo {
     float: right;

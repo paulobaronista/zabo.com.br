@@ -5,9 +5,9 @@
         <title><?php echo $title; ?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="title" content="" />
-        <meta name="og:title" content="" />
-        <meta name="og:description" content="" />
+        <meta name="title" content="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
+        <meta name="og:title" content="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
+        <meta name="og:description" content="Referência em imóveis de alto padrão nos melhores bairros de São Paulo." />
         <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -17,10 +17,10 @@
         <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <meta name="theme-color" content="#205341"/>
         <!-- property (faz funcionar no linkedin) -->
-        <meta property="og:title" content="" />
+        <meta property="og:title" content="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
         <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-        <meta property="" />
-        <meta property="og:url" content="https://www.zabo.com.br" />
+        <meta property="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
+        <meta property="og:url" content="https://www.jardinscollectionzabo.com.br" />
         <!-- property (faz funcionar no linkedin) -->
         <?php
         $meta = array(

@@ -10,9 +10,9 @@ class Contato extends CI_Controller
     }
     public function index()
     {
-        $data['title'] = 'JARDINS COLLECTION ZABO';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
+        $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
+        $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -22,7 +22,7 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $cidade = $this->input->post('cidade');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.zabo.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.jardinscollectionzabo.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
@@ -43,9 +43,9 @@ class Contato extends CI_Controller
                             </body></html>");
 
             if ($this->email->send()) {
-                redirect('https://www.zabo.com.br/contato/obrigado');
+                redirect('https://www.jardinscollectionzabo.com.br/contato/obrigado');
             } else {
-                redirect('https://www.zabo.com.br/contato/fail');
+                redirect('https://www.jardinscollectionzabo.com.br/contato/fail');
             }
         }
 
@@ -59,9 +59,9 @@ class Contato extends CI_Controller
 
     public function obrigado()
     {
-        $data['title'] = 'JARDINS COLLECTION ZABO';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
+        $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
+        $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -74,9 +74,9 @@ class Contato extends CI_Controller
 
     public function fail()
     {
-        $data['title'] = 'JARDINS COLLECTION ZABO';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
+        $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
+        $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

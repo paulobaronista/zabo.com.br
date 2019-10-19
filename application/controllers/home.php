@@ -10,9 +10,9 @@ class Home extends CI_Controller
     }
     public function index()
     {
-        $data['title'] = 'JARDINS COLLECTION ZABO';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
+        $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
+        $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
