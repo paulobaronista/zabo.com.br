@@ -122,7 +122,7 @@
                         <p class="txt-1">Jardins</p>
                         <p class="txt-2">174m² - 3 Suítes/3 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
-                            <p class="txt-3">Entrega Prevista para jul/22</p>
+                            <p class="txt-3">Entrega Prevista para fev/22</p>
                             <a href="https://www.zabo.com.br/maison-chloe" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
