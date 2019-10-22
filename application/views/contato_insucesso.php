@@ -193,8 +193,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
                 <h2>futuros lançamentos</h2>
-                <p>Conheça em primeira as novidades<br>
-                    que a Zabo está preparando para você.</p>
+                <p>Conheça as novidades que a Zabo<br>
+                    está preparando para você.</p>
                 <span class="line"></span>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
@@ -217,8 +217,8 @@
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Itú, 1059</p>
                         <p class="txt-1">Jardins</p>
-                        <p class="txt-2 margin-top-15">68 m² - 2 Dorms. (1 suíte)</p>
-                        <p class="txt-2">1 Vaga</p>
+                        <p class="txt-2 margin-top-15">68 m² - 2 Dorms. (1 suíte) - 1 Vaga</p>
+                        <p class="txt-2">49 m² - 2 Dorms. - 1 Vaga</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
