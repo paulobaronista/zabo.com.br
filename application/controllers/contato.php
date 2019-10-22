@@ -22,7 +22,7 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $cidade = $this->input->post('cidade');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.jardinscollectionzabo.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.zabojardins.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
@@ -43,9 +43,9 @@ class Contato extends CI_Controller
                             </body></html>");
 
             if ($this->email->send()) {
-                redirect('https://www.jardinscollectionzabo.com.br/contato/obrigado');
+                redirect('https://www.zabojardins.com.br/contato/obrigado');
             } else {
-                redirect('https://www.jardinscollectionzabo.com.br/contato/fail');
+                redirect('https://www.zabojardins.com.br/contato/fail');
             }
         }
 

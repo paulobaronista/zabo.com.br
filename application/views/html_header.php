@@ -20,7 +20,7 @@
         <meta property="og:title" content="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
         <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <meta property="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
-        <meta property="og:url" content="https://www.jardinscollectionzabo.com.br" />
+        <meta property="og:url" content="https://zabojardins.com.br/" />
         <!-- property (faz funcionar no linkedin) -->
         <?php
         $meta = array(
