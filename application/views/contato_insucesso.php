@@ -217,8 +217,8 @@
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Itú, 1059</p>
                         <p class="txt-1">Jardins</p>
-                        <p class="txt-2 margin-top-15">68 m² - 2 Dorms. (1 suíte) - 1 Vaga</p>
-                        <p class="txt-2">49 m² - 2 Dorms. - 1 Vaga</p>
+                        <p class="txt-2 margin-top-15">49 m² - 2 Dorms. - 1 Vaga</p>
+                        <p class="txt-2">68 m² - 2 Dorms. (1 suíte) - 1 Vaga</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
