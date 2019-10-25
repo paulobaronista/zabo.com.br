@@ -9,8 +9,8 @@
     line-height: 80px;
     font-weight: normal;
     font-style: normal;
-    color: #3f7977;
-    margin: 0;
+    color: #007a78;
+    margin: 0 0 5px 0;
 }
 .lancamentos h2+p {
     font-family: 'Elaris';
@@ -29,7 +29,7 @@
 
 .lancamentos .line {
     height: 2px;
-    background-color: #3f7977;
+    background-color: #007a78;
     width: 40%;
     margin: 10px auto 40px;
     display: block;
@@ -51,7 +51,7 @@
 .lancamentos .txt-2 {
     font-weight: 900;
     font-style: normal;
-    color: #3f7977;
+    color: #007a78;
     font-size: 16px;
     line-height: 21px;
     margin-top: 15px;
@@ -70,7 +70,7 @@
 }
 .lancamentos a {
     color: #fff;
-    background-color: #3f7977;
+    background-color: #007a78;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 21px;
@@ -104,7 +104,7 @@
     font-family: 'Lato';
     font-weight: bold;
     font-style: normal;
-    color: #3f7977;
+    color: #007a78;
     font-size: 17px;
     line-height: 17px;
     text-transform: uppercase;

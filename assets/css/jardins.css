@@ -9,7 +9,7 @@
     line-height: 80px;
     font-weight: normal;
     font-style: normal;
-    color: #3f7977;
+    color: #007a78;
     margin: 0;
 }
 
@@ -30,7 +30,7 @@
 
 .jardins .line {
     height: 2px;
-    background-color: #3f7977;
+    background-color: #007a78;
     width: 40%;
     margin: 10px auto 0;
     display: block;

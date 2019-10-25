@@ -27,7 +27,7 @@
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
-    background-color: #3f7977;
+    background-color: #007a78;
 }
 
 .navbar-default .navbar-toggle {
@@ -41,7 +41,7 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #3f7977;
+    background-color: #007a78;
 }
 
 .navbar-toggle {

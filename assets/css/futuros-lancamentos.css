@@ -9,7 +9,7 @@
     line-height: 65px;
     font-weight: normal;
     font-style: normal;
-    color: #3f7977;
+    color: #007a78;
     margin: 0;
 }
 .futuros-lancamentos h2+p {
@@ -29,7 +29,7 @@
 
 .futuros-lancamentos .line {
     height: 2px;
-    background-color: #3f7977;
+    background-color: #007a78;
     width: 40%;
     margin: 10px auto 40px;
     display: block;
@@ -51,7 +51,7 @@
 .futuros-lancamentos .txt-2 {
     font-weight: 900;
     font-style: normal;
-    color: #3f7977;
+    color: #007a78;
     font-size: 16px;
     line-height: 21px;
 }
@@ -69,7 +69,7 @@
 }
 .futuros-lancamentos a {
     color: #fff;
-    background-color: #3f7977;
+    background-color: #007a78;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 21px;

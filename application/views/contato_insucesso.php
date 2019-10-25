@@ -73,7 +73,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
-                <h2>lançamentos</h2>
+                <h2>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/tt-lancamentos.png" alt="Lançamentos">
+                </h2>
                 <p>Aproveite as oportunidades mais<br>
                     sofisticadas e exclusivas do mercado</p>
                 <span class="line"></span>
@@ -303,9 +305,12 @@ if (isset($email_enviado))
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150943946-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-150943946-1');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150943946-1');
 </script>
