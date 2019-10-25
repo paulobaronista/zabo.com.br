@@ -28,9 +28,9 @@ class Contato extends CI_Controller
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@spicytracking.com.br", "$nome"); //senha: @f5(Sqkw#R=a
-            $this->email->to('contato@spicytracking.com.br');
-            $this->email->cc('paulobaronista@gmail.com');
+            $this->email->from("zabo@spicytracking.com.br", "$nome"); //senha: @f5(Sqkw#R=a
+            $this->email->to('zabo@spicytracking.com.br');
+            $this->email->cc('renata@spicycomm.com.br, cassio@zabo.com.br, david@zabo.com.br, alfredosallesdigital@gmail.com, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -43,9 +43,9 @@ class Contato extends CI_Controller
                             </body></html>");
 
             if ($this->email->send()) {
-                redirect('https://www.zabojardins.com.br/contato/obrigado');
+                redirect('http://www.zabojardins.com.br/contato/obrigado');
             } else {
-                redirect('https://www.zabojardins.com.br/contato/fail');
+                redirect('http://www.zabojardins.com.br/contato/fail');
             }
         }
 

@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center padding-off-mobile">
                     <p>O e-mail não pode ser enviado!<br />
                         <strong>Tente novamente!</strong><br />
-                        Se o problema persistir, entre em contato pelo e-mail <strong>contato@jardinscollectionzabo.com.br</strong><br />
+                        Se o problema persistir, entre em contato pelo e-mail <strong>contato@zabojardins.com.br</strong><br />
                         Ou Ligue: <strong>(11) 99610-0076</strong></p>
                 </div>
             </div>
