@@ -12,7 +12,7 @@ class Home extends CI_Controller
     {
         $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
         $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
-        $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
+        $data['keywords'] = 'zabo alto padrão; imovel jardins; zabo jardins colletion; apartamento jardins';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);

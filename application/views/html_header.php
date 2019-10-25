@@ -8,6 +8,7 @@
         <meta name="title" content="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
         <meta name="og:title" content="Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo" />
         <meta name="og:description" content="Referência em imóveis de alto padrão nos melhores bairros de São Paulo." />
+        <meta name="keywords" content="zabo alto padrão; imovel jardins; zabo jardins colletion; apartamento jardins" />
         <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">

@@ -78,8 +78,8 @@
                     sofisticadas e exclusivas do mercado</p>
                 <span class="line"></span>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInLeft">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInLeft">
                     <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Helena.png" alt="Maison Helena">
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Franca, 1633</p>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInRight">
+                <!-- <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInRight">
                     <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Marie.png" alt="Maison Marie">
                     <div class="col-xs-12">
                         <p class="txt-1">Rua José Maria Lisboa, 1326</p>
@@ -102,8 +102,8 @@
                             <a href="https://www.zabo.com.br/maison-marie" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInLeft">
+                </div> -->
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInLeft">
                     <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Giselle.png" alt="Maison Giselle">
                     <div class="col-xs-12">
                         <p class="txt-1">Rua Peixoto Gomide, 1389</p>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInRight">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInRight">
                     <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maiso-Chloe.png" alt="Maiso Chloe">
                     <div class="col-xs-12">
                         <p class="txt-1">Al. Casa Branca, 939</p>
@@ -300,3 +300,12 @@
 if (isset($email_enviado))
     echo $email_enviado;
 ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150943946-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150943946-1');
+</script>

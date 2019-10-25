@@ -12,7 +12,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
         $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
-        $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
+        $data['keywords'] = 'zabo alto padrão; imovel jardins; zabo jardins colletion; apartamento jardins';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -22,7 +22,7 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $cidade = $this->input->post('cidade');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.zabojardins.com.br');
+            $assunto = utf8_decode('ZABO JARDINS COLLETION');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
@@ -30,7 +30,7 @@ class Contato extends CI_Controller
 
             $this->email->from("zabo@spicytracking.com.br", "$nome"); //senha: @f5(Sqkw#R=a
             $this->email->to('zabo@spicytracking.com.br');
-            $this->email->cc('renata@spicycomm.com.br, cassio@zabo.com.br, david@zabo.com.br, alfredosallesdigital@gmail.com, paulobaronista@gmail.com');
+            $this->email->cc('renata@spicycomm.com.br, cassio@zabo.com.br, david@zabo.com.br, leadszabojardins@gmail.com, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -60,7 +60,7 @@ class Contato extends CI_Controller
     public function obrigado()
     {
         $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
-        $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
+        $data['keywords'] = 'zabo alto padrão; imovel jardins; zabo jardins colletion; apartamento jardins';
         $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
@@ -76,7 +76,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Zabo Engenharia S/A | Imóveis de Alto Padrão | São Paulo';
         $data['description'] = 'Referência em imóveis de alto padrão nos melhores bairros de São Paulo.';
-        $data['keywords'] = 'alto padrão, Referência em imóveis, melhores bairros, São Paulo';
+        $data['keywords'] = 'zabo alto padrão; imovel jardins; zabo jardins colletion; apartamento jardins';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
