@@ -182,7 +182,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
-                <h2>futuros lançamentos</h2>
+                <h2>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/tt-futuros-lancamentos.png" alt="Futuros Lançamentos">
+                </h2>
                 <p>Conheça as novidades que a Zabo<br>
                     está preparando para você.</p>
                 <span class="line"></span>
