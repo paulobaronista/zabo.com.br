@@ -87,7 +87,7 @@
                         <p class="txt-2">208 e 312m² - 3 e 4 Suítes</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jul/22</p>
-                            <a href="https://www.zabo.com.br/maison-helena" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-helena?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Maison%20Helena&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Maison%20Helena&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Maison%20Helena" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                         <p class="txt-2">226m² - 4 Dormitórios/4 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jan/22</p>
-                            <a href="https://www.zabo.com.br/maison-giselle" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-giselle?utm_source=Site+Zabo+Jardins+Colletion+-+Giselle&utm_medium=Site+Zabo+Jardins+Colletion+-+Giselle&utm_campaign=Site+Zabo+Jardins+Colletion+-+Giselle" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                         <p class="txt-2">174m² - 3 Suítes/3 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para fev/22</p>
-                            <a href="https://www.zabo.com.br/maison-chloe" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-chloe?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Chloe&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Chloe&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Chloe" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 1º semestre de 2020</p>
-                            <a href="https://www.zabo.com.br/pine-zabo" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/pine-zabo?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Pine&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Pine&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Pine" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
-                            <a href="https://www.zabo.com.br/symmetry-zabo" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/symmetry-zabo?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Symmetry&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Symmetry&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Symmetry" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,7 @@
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
-                            <a href="https://www.zabo.com.br/maison-manuelle" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maison-manuelle?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Manuelle&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Manuelle&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Manuelle" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -302,6 +302,16 @@
 if (isset($email_enviado))
     echo $email_enviado;
 ?>
+
+<script type='text/javascript'>
+window.__lo_site_id = 177956;
+
+(function() {
+var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+ })();
+</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150943946-1"></script>
