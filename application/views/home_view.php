@@ -315,3 +315,16 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa
 
     gtag('config', 'UA-150943946-1');
 </script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 699541115 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-699541115"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-699541115');
+</script>
