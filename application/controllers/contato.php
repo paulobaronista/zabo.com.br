@@ -30,7 +30,7 @@ class Contato extends CI_Controller
 
             $this->email->from("contato@zabojardins.com.br", "$nome"); //senha: Spicy2019@
             $this->email->to('contato@zabojardins.com.br');
-            $this->email->cc('renata@spicycomm.com.br, cassio@zabo.com.br, david@zabo.com.br, leadszabojardins@gmail.com, paulobaronista@gmail.com, jackkeva@gmail.com');
+            $this->email->cc('renata@spicycomm.com.br, cassio@zabo.com.br, david@zabo.com.br, leadszabojardins.com.br@gmail.com, paulobaronista@gmail.com, jackkeva@gmail.com');
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
