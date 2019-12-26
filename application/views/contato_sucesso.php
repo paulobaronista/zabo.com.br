@@ -87,22 +87,10 @@
                         <p class="txt-2">208 e 312m² - 3 e 4 Suítes</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jul/22</p>
-                            <a href="https://www.zabo.com.br/maison-helena?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Maison%20Helena&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Maison%20Helena&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Maison%20Helena" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maisonhelena" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-xs-12 col-sm-6 col-md-6 mb-30 animated wow bounceInRight">
-                    <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Marie.png" alt="Maison Marie">
-                    <div class="col-xs-12">
-                        <p class="txt-1">Rua José Maria Lisboa, 1326</p>
-                        <p class="txt-1">Jardins</p>
-                        <p class="txt-2">205m² - 3 Suítes/4 Vagas</p>
-                        <div class="col-xs-12 padding-off text-center">
-                            <p class="txt-3">Entrega Prevista para jan/20</p>
-                            <a href="https://www.zabo.com.br/maison-marie" target="_blank">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="col-xs-12 col-sm-4 col-md-4 mb-30 animated wow bounceInLeft">
                     <img class="img-responsive center-block mb-15" src="<?= base_url(); ?>assets/images/Maison-Giselle.png" alt="Maison Giselle">
                     <div class="col-xs-12">
@@ -111,7 +99,7 @@
                         <p class="txt-2">226m² - 4 Dormitórios/4 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para jan/22</p>
-                            <a href="https://www.zabo.com.br/maison-giselle?utm_source=Site+Zabo+Jardins+Colletion+-+Giselle&utm_medium=Site+Zabo+Jardins+Colletion+-+Giselle&utm_campaign=Site+Zabo+Jardins+Colletion+-+Giselle" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maisongiselle" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +111,7 @@
                         <p class="txt-2">174m² - 3 Suítes/3 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Entrega Prevista para fev/22</p>
-                            <a href="https://www.zabo.com.br/maison-chloe?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Chloe&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Chloe&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Chloe" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maisonchloe" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -210,7 +198,7 @@
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 1º semestre de 2020</p>
-                            <a href="https://www.zabo.com.br/pine-zabo?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Pine&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Pine&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Pine" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/pinezabo" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -224,7 +212,7 @@
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
-                            <a href="https://www.zabo.com.br/symmetry-zabo?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Symmetry&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Symmetry&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Symmetry" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/symmetryzabo" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -238,7 +226,7 @@
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
                                 para 2º semestre de 2020</p>
-                            <a href="https://www.zabo.com.br/maison-manuelle?utm_source=Site%20Zabo%20Jardins%20Colletion%20-%20Manuelle&utm_medium=Site%20Zabo%20Jardins%20Colletion%20-%20Manuelle&utm_campaign=Site%20Zabo%20Jardins%20Colletion%20-%20Manuelle" target="_blank">Saiba Mais</a>
+                            <a href="https://www.zabo.com.br/maisonmanuelle" target="_blank">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -304,13 +292,16 @@ if (isset($email_enviado))
 ?>
 
 <script type='text/javascript'>
-window.__lo_site_id = 177956;
+    window.__lo_site_id = 177956;
 
-(function() {
-var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
-wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
- })();
+    (function() {
+        var wa = document.createElement('script');
+        wa.type = 'text/javascript';
+        wa.async = true;
+        wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wa, s);
+    })();
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
