@@ -193,7 +193,7 @@
                     <div class="col-xs-12">
                         <p class="txt-1">Rua Alves Guimarães, 214</p>
                         <p class="txt-1">Pinheiros</p>
-                        <p class="txt-2 margin-top-15">126 à 151 m² - 2 ou 3 Suítes</p>
+                        <p class="txt-2 margin-top-15">125 à 150 m² - 2 ou 3 Suítes</p>
                         <p class="txt-2">2 Vagas</p>
                         <div class="col-xs-12 padding-off text-center">
                             <p class="txt-3">Lançamento Previsto<br>
