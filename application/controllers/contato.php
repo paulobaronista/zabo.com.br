@@ -22,7 +22,7 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $cidade = $this->input->post('cidade');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('ZABO JARDINS COLLETION');
+            $subject = utf8_decode('JARDINS COLLECTION ZABO');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
@@ -31,7 +31,7 @@ class Contato extends CI_Controller
             $this->email->from("contato@zabojardins.com.br", "$nome"); //senha: Spicy2019@
             $this->email->to('contato@zabojardins.com.br');
             $this->email->cc('renata@spicycomm.com.br, cassio@zabo.com.br, david@zabo.com.br, leadszabojardins.com.br@gmail.com, paulobaronista@gmail.com, jackkeva@gmail.com');
-            $this->email->subject($assunto);
+            $this->email->subject($subject);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
             Nome:		{$nome}<br/>
